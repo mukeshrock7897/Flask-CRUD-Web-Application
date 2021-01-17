@@ -1,0 +1,466 @@
+[
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {
+            "value": "\n```python\nimport alembic\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {
+            "value": "\n```python\nimport alembic\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {
+            "value": "\n```python\nimport __future__\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {
+            "value": "\n```python\nimport logging\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {
+            "value": "\n```python\nimport logging.config\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {
+            "value": "\n```python\nimport flask\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {
+            "value": "\n```python\nimport flask_sqlalchemy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Manager",
+        "importPath": "flask_script",
+        "description": "flask_script",
+        "isExtraImport": true,
+        "detail": "flask_script",
+        "documentation": {
+            "value": "\n```python\nimport flask_script\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {
+            "value": "\n```python\nimport flask_migrate\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "MigrateCommand",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {
+            "value": "\n```python\nimport flask_migrate\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')\n    op.drop_column('employee', 'email')",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import upgrade\n```\n\n```python\n\n\n```\n\n```python\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')\n    op.drop_column('employee', 'email')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')\n    op.drop_column('employee', 'email')\n    op.drop_column('employee', 'desgination')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import downgrade\n```\n\n```python\n\n\n```\n\n```python\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')\n    op.drop_column('employee', 'email')\n    op.drop_column('employee', 'desgination')\n    # ### end Alembic commands ###\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "revision = '079566550d02'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import revision\n```\n\n```python\n\n\n```\n\n```python\nrevision = '079566550d02'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import down_revision\n```\n\n```python\n\n\n```\n\n```python\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import branch_labels\n```\n\n```python\n\n\n```\n\n```python\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.079566550d02_",
+        "description": "migrations.versions.079566550d02_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')",
+        "detail": "migrations.versions.079566550d02_",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.versions.079566550d02_ import depends_on\n```\n\n```python\n\n\n```\n\n```python\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('employee', sa.Column('desgination', sa.String(length=200), nullable=False))\n    op.add_column('employee', sa.Column('email', sa.String(length=100), nullable=False))\n    op.add_column('employee', sa.Column('number', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('employee', 'number')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import run_migrations_offline\n```\n\n```python\n\n\n```\n\n```python\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import run_migrations_online\n```\n\n```python\n\n\n```\n\n```python\ndef run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import config\n```\n\n```python\n\n\n```\n\n```python\nconfig = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.engine.url).replace('%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import logger\n```\n\n```python\n\n\n```\n\n```python\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom flask import current_app\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.engine.url).replace('%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "migrations.env",
+        "documentation": {
+            "value": "\n```python\nfrom migrations.env import target_metadata\n```\n\n```python\n\n\n```\n\n```python\ntarget_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "EmployeeInformation",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)\n    def __init__(self, eid=None, ename=None, desgination=None, email=None, number=None):\n        self.eid = eid\n        self.ename = ename\n        self.desgination = desgination",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import EmployeeInformation\n```\n\n```python\n\n\n```\n\n```python\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)\n    def __init__(self, eid=None, ename=None, desgination=None, email=None, number=None):\n        self.eid = eid\n        self.ename = ename\n        self.desgination = desgination\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "routed_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def routed_page():\n    data = EmployeeInformation.query.all()\n    return render_template('view.html',data=data)\n@app.route('/',methods=['POST',\"GET\"])\ndef save_data():\n    if request.method ==\"POST\":\n        #This piece of script will extract the value from requested form\n        eid_request = request.form['eid']\n        ename_request = request.form['ename']\n        desgination_request = request.form['des']",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import routed_page\n```\n\n```python\n\n\n```\n\n```python\ndef routed_page():\n    data = EmployeeInformation.query.all()\n    return render_template('view.html',data=data)\n@app.route('/',methods=['POST',\"GET\"])\ndef save_data():\n    if request.method ==\"POST\":\n        #This piece of script will extract the value from requested form\n        eid_request = request.form['eid']\n        ename_request = request.form['ename']\n        desgination_request = request.form['des']\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "save_data",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def save_data():\n    if request.method ==\"POST\":\n        #This piece of script will extract the value from requested form\n        eid_request = request.form['eid']\n        ename_request = request.form['ename']\n        desgination_request = request.form['des']\n        email_request = request.form['eemail']\n        number_request = request.form['enumber']\n        #This piece of script will store the data into repective model field \n        eid_store = EmployeeInformation(eid=eid_request, ename=ename_request, desgination=desgination_request, email=email_request, number=number_request)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import save_data\n```\n\n```python\n\n\n```\n\n```python\ndef save_data():\n    if request.method ==\"POST\":\n        #This piece of script will extract the value from requested form\n        eid_request = request.form['eid']\n        ename_request = request.form['ename']\n        desgination_request = request.form['des']\n        email_request = request.form['eemail']\n        number_request = request.form['enumber']\n        #This piece of script will store the data into repective model field \n        eid_store = EmployeeInformation(eid=eid_request, ename=ename_request, desgination=desgination_request, email=email_request, number=number_request)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "DeleteRecord",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def DeleteRecord(id):\n    delete_record = EmployeeInformation.query.get_or_404(id)\n    try:\n        db.session.delete(delete_record)\n        db.session.commit()\n        return redirect('/view')\n    except:\n        return \"<h1>Thre is Something problem in deleting the record</h1>\"\n@app.route(\"/update/<int:id>\", methods=['GET','POST'])\ndef UpdateRecord(id):",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import DeleteRecord\n```\n\n```python\n\n\n```\n\n```python\ndef DeleteRecord(id):\n    delete_record = EmployeeInformation.query.get_or_404(id)\n    try:\n        db.session.delete(delete_record)\n        db.session.commit()\n        return redirect('/view')\n    except:\n        return \"<h1>Thre is Something problem in deleting the record</h1>\"\n@app.route(\"/update/<int:id>\", methods=['GET','POST'])\ndef UpdateRecord(id):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UpdateRecord",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def UpdateRecord(id):\n    update_record = EmployeeInformation.query.get_or_404(id)\n    if request.method=='POST':\n        update_record.ename = request.form['ename']\n        update_record.desgination = request.form['des']\n        update_record.email = request.form['eemail']\n        update_record.number = request.form['enumber']\n        try:\n            db.session.commit()\n            return redirect('/view')",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import UpdateRecord\n```\n\n```python\n\n\n```\n\n```python\ndef UpdateRecord(id):\n    update_record = EmployeeInformation.query.get_or_404(id)\n    if request.method=='POST':\n        update_record.ename = request.form['ename']\n        update_record.desgination = request.form['des']\n        update_record.email = request.form['eemail']\n        update_record.number = request.form['enumber']\n        try:\n            db.session.commit()\n            return redirect('/view')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import app\n```\n\n```python\n\n\n```\n\n```python\napp = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import app.config['SQLALCHEMY_DATABASE_URI']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import app.config['SQLALCHEMY_TRACK_MODIFICATIONS']\n```\n\n```python\n\n\n```\n\n```python\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "db = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import db\n```\n\n```python\n\n\n```\n\n```python\ndb = SQLAlchemy(app)\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "migrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import migrate\n```\n\n```python\n\n\n```\n\n```python\nmigrate = Migrate(app, db)\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "manager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)\n    def __init__(self, eid=None, ename=None, desgination=None, email=None, number=None):",
+        "detail": "app",
+        "documentation": {
+            "value": "\n```python\nfrom app import manager\n```\n\n```python\n\n\n```\n\n```python\nmanager = Manager(app)\nmanager.add_command('db', MigrateCommand)\n#Employee Information data model structure\nclass EmployeeInformation(db.Model):\n    eid = db.Column(db.Integer, primary_key=True)\n    ename = db.Column(db.String(200), nullable=False)\n    desgination = db.Column(db.String(200), nullable=False)\n    email= db.Column(db.String(100),nullable=False)\n    number = db.Column(db.String(100),nullable=False)\n    def __init__(self, eid=None, ename=None, desgination=None, email=None, number=None):\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]

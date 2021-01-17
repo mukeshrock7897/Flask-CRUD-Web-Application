@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Employee Registration Form</title>
+
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')}}">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+<img src="https://www.lntinfotech.com/wp-content/uploads/2017/06/LTI_Lets_solve.png" height="100" width="180" class="d-inline-block align-top">
+  <p class="display-4">Larsen & Toubro Infotech Record</p>
+</nav>
+    <button type="button" class="btn btn-outline-secondary"><a href="/" >Add New Record</a></button>
+    <table  class="table table-dark table-bordered">
+    <tr>
+    <th>Employee ID</th>
+    <th>Name</th>
+    <th>Desgination</th>
+    <th>Email</th>
+    <th>Number</th>
+    <th>Action</th>
+    </tr>
+    {% for d in data %}
+
+    <tr>
+    <td >{{d.eid}}</td>  
+    <td>{{d.ename}}</td>  
+    <td>{{d.desgination}}</td>  
+    <td>{{d.email}}</td> 
+    <td>{{d.number}}</td>
+    <td>
+    <a href="/update/{{d.eid}}">Update</a><br>
+    <a href="/delete/{{d.eid}}">Delete</a>
+    </td>
+    </tr>
+
+  {%endfor%}
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')}}">
+  <title>Employee Registration Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style type="text/css">
+body {
+  background-image: url('https://images.idgesg.net/images/article/2017/07/csan_002_thedarkwebschanged-100730150-orig.jpg');
+}
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+<img src="https://www.lntinfotech.com/wp-content/uploads/2017/06/LTI_Lets_solve.png" height="100" width="180" class="d-inline-block align-top">
+  <p class="display-4">Employee Record Individual Update</p>
+</nav>
+
+  <h2></h2>
+  <table border="1" class="table table-dark">
+  <form action="/update/{{update_record.eid}}" method="post">
+        <tr>
+        <td class="td justify-content-center" colspan="1">Employee ID</td>
+        <td><input type="text" name="eid" id="eid" value="{{update_record.eid}}" disabled class="form-control"></td>
+        </tr>
+
+        <tr>
+        <td class="td">Name</td>
+        <td><input type="text" name="ename" id="ename" value="{{update_record.ename}}" class="form-control"></td>
+        </tr>
+
+        <tr>
+        <td class="td">Desgination</td>
+        <td><input type="text" name="des" id="des" value="{{update_record.desgination}}" class="form-control"></td>
+        </tr>
+    
+        <tr>
+        <td class="td">Email</td>
+        <td><input type="email" name="eemail" id="eemail" value="{{update_record.email}}" class="form-control"></td>
+        </tr>
+
+        <tr>
+        <td class="td">Number</td>
+        <td><input type="text" name="enumber" id="enumber" value="{{update_record.number}}" class="form-control"></td>
+        </tr>
+
+        <td colspan="2">
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        </td>
+        </div>
+  </form>
+  </table>
+
+</body>
+</html>
